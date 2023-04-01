@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+	  <parameter name="platformName" value="Android"/>
+	  <parameter name="platformVersion" value="12.0"/>
+	  <parameter name="deviceName" value="pixel_6_pro_API_32"/>
+
+    <classes>
+      <class name="com.qa.test.LoginTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
